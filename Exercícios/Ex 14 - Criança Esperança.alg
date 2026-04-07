@@ -1,4 +1,4 @@
-algoritmo "Criança Esperança"
+algoritmo "CriançaEsperança"
 
 var
     D: Inteiro
