@@ -4,7 +4,7 @@ var
 inicio
       EscrevaL("CONTAGEM INTELIGENTE")
       EscrevaL("--------------------")
-      EscrevaL ("Inicio: ")
+      Escreval ("Inicio: ")
       Leia(I)
       Escreva ("Fim: ")
       Leia(F)
