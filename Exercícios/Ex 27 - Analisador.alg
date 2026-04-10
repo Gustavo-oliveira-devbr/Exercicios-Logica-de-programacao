@@ -1,8 +1,7 @@
 algoritmo "AnalisadorValores"
 
-  V, C, S, DI5, NUL, SPAR: Inteiro
-  
-  M: Real
+    V, C, S, DI5, NUL, SPAR: Inteiro
+    M: Real
   
 inicio
     S <- 0
