@@ -11,7 +11,7 @@ inicio
    FimSe
 FimProcedimento
 inicio
-   Escreva("Digite um numero: ")
+   Escreva("Digite um número: ")
    Leia (N)
    ParOuImpar(N)
 fimalgoritmo
