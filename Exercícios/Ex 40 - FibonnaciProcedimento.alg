@@ -14,8 +14,8 @@ inicio
 FimFuncao
   
 inicio
-   Escreva("Digite um numero: ")
+   EscrevaL("Digite um numero: ")
    Leia(N)
    R <- ParOuImpar(N)
-   Escreva ("O numero ", N, " e um valor ", R)
+   EscrevaL ("O numero ", N, " e um valor ", R)
 fimalgoritmo
