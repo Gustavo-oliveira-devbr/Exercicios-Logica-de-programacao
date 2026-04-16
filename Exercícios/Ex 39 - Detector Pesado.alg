@@ -14,7 +14,7 @@ inicio
      Escreva("Digite o nome: ")
      Leia(N)
      Escreva("Digite o peso de ", N, ": ")
-     Se (P>Mai) entao
+     Se (P > Mai) entao
         MAI <- P
         Pesado <- N
      FimSe
