@@ -4,7 +4,7 @@ algoritmo "TotalPares"
   i, TotPar: Inteiro
 inicio
    Para i <- 1 ate 7 faca
-      Escreva("Digite o ", i, "o. valor: ")
+      EscrevaL("Digite o ", i, "o. valor: ")
       Leia(n[i])
    FimPara
    
