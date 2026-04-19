@@ -10,7 +10,7 @@ var i: Inteiro
 inicio
    Para i <- 1 ate 10 faca
       Se (B[i] = "") entao
-         Escreva ("[ B", i:2, " ]")
+         EscrevaL ("[ B", i:2, " ]")
       senao
          Escreva ("[ --- ]")
       FimSe
