@@ -31,7 +31,7 @@ inicio
       Senao
          EscrevaL("ERRO: Lugar Ocupado!")
       FimSe
-      Escreva("Quer reservar outro? [S/N] ")
+      EscrevaL("Quer reservar outro? [S/N] ")
       Leia(r)
    Ate (r = "N")
 fimalgoritmo
