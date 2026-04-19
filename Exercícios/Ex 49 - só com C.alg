@@ -18,6 +18,6 @@ inicio
    LimpaTela
    EscrevaL("LISTAGEM FINAL")
    Para c <- 1 ate tot faca
-     EscrevaL(soC[c])
+     EscrevaL(soC [c] )
    FimPara
 fimalgoritmo
