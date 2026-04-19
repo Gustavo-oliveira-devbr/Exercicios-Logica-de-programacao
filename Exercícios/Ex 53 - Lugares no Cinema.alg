@@ -12,7 +12,7 @@ inicio
       Se (B[i] = "") entao
          EscrevaL ("[ B", i:2, " ]")
       senao
-         Escreva ("[ --- ]")
+         EscrevaL ("[ --- ]")
       FimSe
    FimPara
    EscrevaL()
