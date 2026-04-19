@@ -23,7 +23,7 @@ inicio
    Repita
       LimpaTela
       MostraFileira()
-      Escreva("Reservar a cadeira: B")
+      EscrevaL("Reservar a cadeira: B")
       Leia(cad)
       Se (B[cad]="") entao
          B[cad] <- "X"
