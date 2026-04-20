@@ -31,7 +31,7 @@ inicio
    EscrevaL("Vetor Ordenado: ")
    EscrevaL("-------------------------------")
    Para c <- 1 ate 10 faca
-      Escreva (v[c], " ")
+      EscrevaL (v[c], " ")
    FimPara
 
 fimalgoritmo
