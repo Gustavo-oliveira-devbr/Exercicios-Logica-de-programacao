@@ -18,7 +18,7 @@ inicio
       Leia(nota1[i])
       EscrevaL("Nota 2: ")
       Leia(nota2[i])
-      Escreva("Media: ")
+      EscrevaL("Media: ")
       media[i] <- (nota1[i] + nota2[i])/2
       EscrevaL(media[i]:4:1)
       SMed <- SMed + media[i]
