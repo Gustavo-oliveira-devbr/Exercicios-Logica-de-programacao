@@ -8,7 +8,7 @@ inicio
    EscrevaL("CAMPEONATO FUTEBOL")
    EscrevaL("------------------")
    Para c <- 1 ate 3 faca
-      Escreva ("Nome do ", c, "o. time: ")
+      EscrevaL ("Nome do ", c, "o. time: ")
       Leia(time[c])
    FimPara
    
