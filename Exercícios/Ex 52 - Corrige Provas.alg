@@ -15,7 +15,7 @@ inicio
    EscrevaL("PASSO 1 - Cadastro de Gabarito ")
    EscrevaL("-------------------------------")
    Para c <- 1 ate 5 faca
-      Escreva("Questao ", c, ": ")
+      EscrevaL("Questao ", c, ": ")
       Leia(gab[c])
    FimPara
 FimProcedimento
