@@ -14,9 +14,9 @@ inicio
       EscrevaL("--------------------")
       Escreva("Nome: ")
       Leia(nome[i])
-      Escreva("Nota 1: ")
+      EscrevaL("Nota 1: ")
       Leia(nota1[i])
-      Escreva("Nota 2: ")
+      EscrevaL("Nota 2: ")
       Leia(nota2[i])
       Escreva("Media: ")
       media[i] <- (nota1[i] + nota2[i])/2
