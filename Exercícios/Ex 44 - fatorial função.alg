@@ -15,7 +15,7 @@ Inicio
 FimFuncao
 
 inicio
-   Escreva("Digite um numero: ")
+   EscrevaL("Digite um numero: ")
    Leia(N)
    F <- Fatorial(N)
    EscrevaL("O valor de ", N, "! e igual a ", F)
