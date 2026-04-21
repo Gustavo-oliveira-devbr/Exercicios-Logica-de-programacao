@@ -13,7 +13,7 @@ inicio
    
    Para l <- 1 ate 3 faca
       Para c <- 1 ate 2 faca
-         Escreva (mat[l,c]:5)
+         EscrevaL (mat[l,c]:5)
       FimPara
       EscrevaL()
    FimPara
