@@ -28,7 +28,7 @@ inicio
     notaFinal <- 0
     EscrevaL("RESPOSTAS DADAS")
     Para c <- 1 ate 5 faca
-      Escreva("Questao ", c, ": ")
+      EscrevaL("Questao ", c, ": ")
       Leia(prova[c])
       Se (Maiusc(prova[c]) = Maiusc(gab[c])) entao
          notaFinal <- notaFinal + 2
