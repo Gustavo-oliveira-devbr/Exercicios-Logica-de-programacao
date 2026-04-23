@@ -15,7 +15,7 @@ inicio
     
     Para i <- 1 ate 3 faca
        Para j <- 1 ate 3 faca
-          Escreva (mID[i,j]:3)
+          EscrevaL (mID[i,j]:3)
        FimPara
     FimPara
     
