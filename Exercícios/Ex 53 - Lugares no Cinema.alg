@@ -27,11 +27,11 @@ inicio
       Leia(cad)
       Se (B[cad]="") entao
          B[cad] <- "X"
-         Escreva("Cadeira B", cad, " RESERVADA!")
+         EscrevaL("Cadeira B", cad, " RESERVADA!")
       Senao
-         Escreva("ERRO: Lugar Ocupado!")
+         EscrevaL("ERRO: Lugar Ocupado!")
       FimSe
-      Escreva("Quer reservar outro? [S/N] ")
+      EscrevaL("Quer reservar outro? [S/N] ")
       Leia(r)
    Ate (r = "N")
 fimalgoritmo
