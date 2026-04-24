@@ -109,5 +109,5 @@ inicio
       LimpaTela
       MostraVelha()
    Ate (terminouVelha() = verdadeiro)
-   EscrevaL("JOGO FINALIZADO!!!")
+   Escreva("JOGO FINALIZADO!!!")
 fimalgoritmo
