@@ -71,7 +71,7 @@ inicio
    
    // Jogos em VELHA
    ocorr <- 0
-   Para <- 1 ate 3 faca
+   Para L <- 1 ate 3 faca
       Para C <- 1 ate 3 faca
          Se (v[L,C] <> "X") e (v[L,C] <> "O") entao
             ocorr <- ocorr + 1
