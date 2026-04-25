@@ -6,7 +6,7 @@ var
   
 Procedimento MostraMatriz()
 inicio
-   Para l <- 1 ate 4 faca
+   Para L <- 1 ate 4 faca
       Para c <- 1 ate 4 faca
          Escreva(m[l,c]:4)
       FimPara
