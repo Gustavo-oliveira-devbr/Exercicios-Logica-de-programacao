@@ -98,11 +98,11 @@ inicio
    MostraVelha()
    Repita
       Repita
-         EscrevaL("Vai jogar [", simb:1, "] em qual posicao? ")
+         Escreva("Vai jogar [", simb:1, "] em qual posicao? ")
          Leia(Po)
          R <- Jogar(Simb, Po))
          Se (R = falso) entao
-            EscrevaL("JOGADA INVALIDA!")
+            Escreva("JOGADA INVALIDA!")
          FimSe
       Ate (R = verdadeiro)
       MudaJogador()
