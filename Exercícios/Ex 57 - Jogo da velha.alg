@@ -71,7 +71,7 @@ inicio
    
    // Jogos em VELHA
    ocorr <- 0
-   Para L <- 1 ate 3 faca
+   Para <- 1 ate 3 faca
       Para C <- 1 ate 3 faca
          Se (v[L,C] <> "X") e (v[L,C] <> "O") entao
             ocorr <- ocorr + 1
@@ -98,11 +98,11 @@ inicio
    MostraVelha()
    Repita
       Repita
-         Escreva("Vai jogar [", simb:1, "] em qual posicao? ")
+         EscrevaL("Vai jogar [", simb:1, "] em qual posicao? ")
          Leia(Po)
          R <- Jogar(Simb, Po))
          Se (R = falso) entao
-            Escreva("JOGADA INVALIDA!")
+            EscrevaL("JOGADA INVALIDA!")
          FimSe
       Ate (R = verdadeiro)
       MudaJogador()
