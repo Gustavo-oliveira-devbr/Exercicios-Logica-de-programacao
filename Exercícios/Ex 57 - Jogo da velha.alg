@@ -98,7 +98,7 @@ inicio
    MostraVelha()
    Repita
       Repita
-         EscrevaL("Vai jogar [", simb:1, "] em qual posicao? ")
+         EscrevaL("Vai jogar [", simb:1, "] em qual posição? ")
          Leia(Po)
          R <- Jogar(Simb, Po))
          Se (R = falso) entao
