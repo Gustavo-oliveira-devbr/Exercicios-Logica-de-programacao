@@ -10,7 +10,7 @@ inicio
    EscrevaL (T2)
    Para C := 3 ate 15 faca
         T3 := T1 + T2
-        Escreva (T3)
+        EscrevaL (T3)
         T1 := T2
         T2 := T3
    FimPara
