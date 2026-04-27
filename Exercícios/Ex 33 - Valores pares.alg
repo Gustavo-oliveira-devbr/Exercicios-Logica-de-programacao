@@ -3,7 +3,7 @@ algoritmo "valoresPares"
 var
   CONT, V: Inteiro
 inicio
-   Escreva("Digite um valor: ")
+   EscrevaL("Digite um valor: ")
    Leia(V)
    Se(V%2=1) entao
       V <- V - 1
