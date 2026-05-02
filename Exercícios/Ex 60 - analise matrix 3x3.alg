@@ -12,7 +12,7 @@ inicio
 
    para i de 1 ate 3 faca
       para j de 1 ate 3 faca
-         escreva("Digite o valor para mat[", i, ",", j, "]: ")
+         escreval("Digite o valor para mat[", i, ",", j, "]: ")
          leia(mat[i,j])
          somaTotal <- somaTotal + mat[i,j]
       fimpara
@@ -38,6 +38,6 @@ inicio
    escreval("")
    escreval("Soma da diagonal principal = ", somaPrincipal)
    escreval("Soma da diagonal secundaria = ", somaSecundaria)
-   escreval("Soma de todos os elementos = ", somaTotal)
+   escreva("Soma de todos os elementos = ", somaTotal)
 
 fimalgoritmo
