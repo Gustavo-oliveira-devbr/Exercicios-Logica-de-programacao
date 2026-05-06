@@ -26,18 +26,18 @@ inicio
       somaSecundaria <- somaSecundaria + mat[i,4-i]
    fimpara
 
-   escreval("")
-   escreval("Matriz digitada:")
+   escrevaL"")
+   escrevaL("Matriz digitada:")
    para i de 1 ate 3 faca
       para j de 1 ate 3 faca
-         escreva(mat[i,j], "   ")
+         escrevaL(mat[i,j], "   ")
       fimpara
-      escreval("")
+      escrevaL("")
    fimpara
 
-   escreval("")
-   escreval("Soma da diagonal principal = ", somaPrincipal)
-   escreval("Soma da diagonal secundaria = ", somaSecundaria)
+   escrevaL("")
+   escrevaL("Soma da diagonal principal = ", somaPrincipal)
+   escrevaL("Soma da diagonal secundaria = ", somaSecundaria)
    escreva("Soma de todos os elementos = ", somaTotal)
 
 fimalgoritmo
