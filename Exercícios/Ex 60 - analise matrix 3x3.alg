@@ -26,7 +26,6 @@ inicio
       somaSecundaria <- somaSecundaria + mat[i,4-i]
    fimpara
 
-   escrevaL"")
    escrevaL("Matriz digitada:")
    para i de 1 ate 3 faca
       para j de 1 ate 3 faca
