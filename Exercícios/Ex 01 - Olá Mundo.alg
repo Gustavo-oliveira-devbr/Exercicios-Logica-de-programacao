@@ -4,7 +4,7 @@ var
     msg: caractere
 
 inicio
-    msg <- "Olá, Mundo!"
+    msg <- "Melina te amo!"
     EscrevaL ("Mensagem: ",msg)
 
 fimalgoritmo

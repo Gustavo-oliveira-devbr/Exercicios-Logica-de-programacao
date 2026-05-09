@@ -16,7 +16,7 @@ inicio
    total     := 0
    continuar := verdadeiro
 
-   escreval("===== SUPERMERCADO VISUALG =====")
+   escreval("===== SUPERMERCADO EXPLOSÃO =====")
    escreval("Digite os produtos (ou 'fim' para encerrar)")
    escreval()
 
