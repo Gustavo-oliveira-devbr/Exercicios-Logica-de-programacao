@@ -59,22 +59,21 @@ inicio
    total := total - desconto
 
    // Exibe o cupom
-   escreval()
-   escreval("======= CUPOM FISCAL =======")
+   EscrevaL("======= CUPOM FISCAL =======")
    para i de 1 ate nItens faca
-      escreval(produtos[i], " x", qtd[i], "  R$", (precos[i]*qtd[i]):6:2)
+      EscrevaL(produtos[i], " x", qtd[i], "  R$", (precos[i]*qtd[i]):6:2)
    fimpara
-   escrevaL("----------------------------")
-   escrevaL("TOTAL A PAGAR: R$", total:7:2)
-   escrevaL()
+   EscrevaL("----------------------------")
+   EscrevaL("TOTAL A PAGAR: R$", total:7:2)
+   EscrevaL()
 
-   escrevaL("Valor pago pelo cliente: R$ ")
+   EscrevaL("Valor pago pelo cliente: R$ ")
    leia(pago)
 
    se pago < total entao
-      escrevaL("Valor insuficiente! Faltam R$", (total - pago):6:2)
+      EscrevaL("Valor insuficiente! Faltam R$", (total - pago):6:2)
    senao
-      escrevaL("Troco: R$", (pago - total):6:2)
-      escrevaL("Obrigado pela compra!")
+      EscrevaL("Troco: R$", (pago - total):6:2)
+      EscrevaL("Obrigado pela compra!")
    fimse
 fimalgoritmo
