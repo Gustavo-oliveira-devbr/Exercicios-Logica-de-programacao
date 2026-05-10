@@ -64,17 +64,17 @@ inicio
    para i de 1 ate nItens faca
       escreval(produtos[i], " x", qtd[i], "  R$", (precos[i]*qtd[i]):6:2)
    fimpara
-   escreval("----------------------------")
-   escreval("TOTAL A PAGAR: R$", total:7:2)
-   escreval()
+   escrevaL("----------------------------")
+   escrevaL("TOTAL A PAGAR: R$", total:7:2)
+   escrevaL()
 
-   escreva("Valor pago pelo cliente: R$ ")
+   escrevaL("Valor pago pelo cliente: R$ ")
    leia(pago)
 
    se pago < total entao
-      escreval("Valor insuficiente! Faltam R$", (total - pago):6:2)
+      escrevaL("Valor insuficiente! Faltam R$", (total - pago):6:2)
    senao
-      escreval("Troco: R$", (pago - total):6:2)
-      escreval("Obrigado pela compra!")
+      escrevaL("Troco: R$", (pago - total):6:2)
+      escrevaL("Obrigado pela compra!")
    fimse
 fimalgoritmo
