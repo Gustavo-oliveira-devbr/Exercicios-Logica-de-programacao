@@ -50,7 +50,7 @@ inicio
       desconto := total * 0.15
       escrevaL("Desconto de 15% aplicado! (-R$", desconto:6:2, ")")
    senao se total >= 100 entao
-      desconto otal * 0.10
+      desconto total * 0.10
       escrevaL("Desconto de 10% aplicado! (-R$", desconto:6:2, ")")
    senao
       desconto := 0
