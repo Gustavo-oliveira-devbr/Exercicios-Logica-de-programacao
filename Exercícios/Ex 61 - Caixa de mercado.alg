@@ -29,9 +29,9 @@ inicio
          nItens    := nItens - 1
          continuar := falso
       senao
-         escreva("Preço R$: ")
+         escrevaL("Preço R$: ")
          leia(preco)
-         escreva("Quantidade: ")
+         escrevaL("Quantidade: ")
          leia(quantidade)
 
          produtos[nItens] := nome
