@@ -70,7 +70,7 @@ inicio
 
       repita
          tentativas := tentativas + 1
-         escreva("Tentativa ", tentativas, " - Seu chute: ")
+         escreval("Tentativa ", tentativas, " - Seu chute: ")
          leia(chute)
 
          se chute < secreto entao
