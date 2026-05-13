@@ -4,10 +4,10 @@ var
     reais, dolares: Real
 
 inicio
-    EscrevaL("Quantos Reais eu tenho? R$")
+    EscrevaL("Quantos Reais eu tenho hoje? R$")
     Leia(reais)
-    dolares <- reais/5.15
-    Escreva("Posso ter US$", dolares:6:2)
-//dolar está 5.15 hoje
+    dolares <- reais/5.10
+    EscrevaL("Hoje eu posso ter um total de US$", dolares:6:2)
+//dolar está 5.10 hoje
 
 fimalgoritmo
