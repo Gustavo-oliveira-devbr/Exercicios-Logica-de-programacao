@@ -93,9 +93,9 @@ inicio
       inserirRanking(nome, score)
       exibirRanking()
 
-      escreva("Jogar novamente? (s/n): ")
+      escrevaL("Jogar novamente? (s/n): ")
       leia(jogarNovamente)
    fimenquanto
 
-   escreval("Até a próxima!")
+   escrevaL("Até a próxima!")
 fimalgoritmo
